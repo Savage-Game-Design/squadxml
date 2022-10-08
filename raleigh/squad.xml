@@ -3,9 +3,16 @@
 <?xml-stylesheet href="../squad.xsl" type="text/xsl"?>
 <squad nick="RT Raleigh">
     <name>Recon Team Raleigh</name>
+    <email>N/A</email>
     <web>sogpf.com</web>
     <picture>logo_ca.paa</picture>
     <title>RT Raleigh</title>
     <!--  Members -->
+    <member id="76561197993041837" nick="veteran29">
+        <email>N/A</email>
+        <name>[SGD] veteran29</name>
+        <icq>N/A</icq>
+        <remark>Gameplay Programmer</remark>
+    </member>
     <!--/ Members -->
 </squad>
