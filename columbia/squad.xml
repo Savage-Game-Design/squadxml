@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE squad SYSTEM "squad.dtd">
-<?xml-stylesheet href="squad.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../squad.xsl" type="text/xsl"?>
 <squad nick="RT Columbia">
     <name>Recon Team Columbia</name>
     <web>sogpf.com</web>
