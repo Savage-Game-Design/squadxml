@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE squad SYSTEM "squad.dtd">
+<?xml-stylesheet href="squad.xsl" type="text/xsl"?>
+<squad nick="RT Columbia">
+    <name>Recon Team Columbia</name>
+    <web>www.sogpf.com</web>
+    <picture>logo.paa</picture>
+    <title>RT Columbia</title>
+    <!--  Members -->
+    <member id="76561197993041837" nick="veteran29">
+        <remark>Gameplay Programmer</remark>
+    </member>
+    <!--/ Members -->
+</squad>
