@@ -3,14 +3,14 @@
 <?xml-stylesheet href="squad.xsl" type="text/xsl"?>
 <squad nick="RT Columbia">
     <name>Recon Team Columbia</name>
-    <web>www.sogpf.com</web>
-    <picture>logo.paa</picture>
+    <web>sogpf.com</web>
+    <picture>logo_ca.paa</picture>
     <title>RT Columbia</title>
     <!--  Members -->
     <member id="76561197993041837" nick="veteran29">
-        <email>N/A</email>
-        <name>N/A</name>
-        <icq>N/A</icq>
+        <email></email>
+        <name></name>
+        <icq></icq>
         <remark>Gameplay Programmer</remark>
     </member>
     <!--/ Members -->

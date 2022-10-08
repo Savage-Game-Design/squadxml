@@ -3,8 +3,8 @@
 <?xml-stylesheet href="squad.xsl" type="text/xsl"?>
 <squad nick="RT Raleigh">
     <name>Recon Team Raleigh</name>
-    <web>www.sogpf.com</web>
-    <picture>logo.paa</picture>
+    <web>sogpf.com</web>
+    <picture>logo_ca.paa</picture>
     <title>RT Raleigh</title>
     <!--  Members -->
     <!--/ Members -->
