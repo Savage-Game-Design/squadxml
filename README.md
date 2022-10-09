@@ -12,3 +12,10 @@ To use them in-game your Steam ID must be added to the respective file and you m
 5. Select "Custom" from the "Unit:" dropdown
 6. Paste the `https://savage-game-design.github.io/squadxml/columbia/squad.xml` or `https://savage-game-design.github.io/squadxml/raleigh/squad.xml` into the URL field
 7. Click "Apply"
+
+
+## Roster
+
+[RT Columbia](https://savage-game-design.github.io/squadxml/columbia/squad.xml)
+
+[RT Raleigh](https://savage-game-design.github.io/squadxml/raleigh/squad.xml)
