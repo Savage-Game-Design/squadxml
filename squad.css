@@ -5,24 +5,41 @@
 	Created by TomNedry, 26.Jan07
 	Reviewed by TomNedry, 15.Jul09
 	License: Creative Common (http://creativecommons.org/licenses/by-nc-sa/2.5/deed.de)
+
+	Modified by Savage Games Design
 */
 
-body
-{
-	font-family:Arial;
-	background-color:#eaece5;
-	margin:0;
+body {
+	font-family: "Arial";
+	background-color: #181818;
+	margin: 0;
+
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
+.main {
+	text-align: center;
+	width: 100%;
+	border: 0 solid #333333;
+}
+.footer {
+	font-size:7pt;
+	color:darkgrey;
+	text-align:center;
+	padding:10px;
+	margin-top: auto;
+};
 
 a:link 
 { 
 	text-decoration:none;
-	color:#800000;
+	color:#ffffff;
 }
 a:visited 
 {
 	text-decoration:none;
-	color:#800000;
+	color:#ffffff;
 }
 a:hover 
 { 
@@ -37,82 +54,85 @@ a:focus {
 	text-decoration:none;
 }
 
-th
-{
-	background-color:#aeb399;
-	font-family:Arial;
-	font-size:10pt;
-	font-weight:bold;
-	padding:4px;
+th {
+	color: #c48214;
+	background-color:#0e0e0e;
+
+	font-size: 11pt;
+	font-weight: bold;
+	padding: 4px;
 }
 
 tr.one
 {
-	background-color:#dde4c3;
+	color: white;
+	background-color:#1C1C1C;
 	width:100%;
 	padding:4px;
 }
 tr.two
 {
-	background-color:#d2d9b8;
+	color: white;
+	background-color:#2D2D2D;
 	width:100%;
 	padding:4px;
 }
+
 td.one
 {
-	background-color:#aeb399;
 	width:100%;
+
+	color: #c48214;
+	background-color: #0e0e0e;
 }
 td.two
 {
 	background-color:#e2e9c7;
 	width:100%;
+
+	color: white;
+	background-color: #c48214;
+	font-weight: bolder;
 }
-.main
-{
-	text-align:center;
-	width:100%;
-	border:0 solid #333333;
-}
+
+
 div.sqd_name
 {
 	text-align:center;
-	font-family:Arial;
-	font-size:12pt;
+	font-size: 14pt;
 	font-weight:bold;
 }
 div.sqd_title
 {
 	text-align:center;
-	font-family:Arial;
-	font-size:10pt;
+	font-size:12pt;
 }
-div.sqd_logo
-{
+div.sqd_logo {
 	text-align:center;
 	font-size:8pt;
 	padding:5px;
+
+	background-color: #1C1C1C;
 }
-.sqd_info
-{
-	border:1px dotted darkgrey;
+.sqd_info {
+	border: 1px solid #c484149a;
 	width:100%;
 	padding:0;
 	border-spacing:0;
 }
-.sqd_website
-{
-	font-family:Arial;
-	font-size:10pt;
+.sqd_website {
+	font-size: 14pt;
 	text-align:center;
-	background-color:#aeb399;
+	background-color: #c48214;
 	width:100%;
 	padding:4px;
 	border-spacing:0;
+
+	color: white;
+	font-weight: bolder;
 }
 .sqd_email
 {
-	font-family:Arial;
 	font-size:10pt;
 	text-align:center;
 	background-color:#aeb399;
@@ -120,6 +140,7 @@ div.sqd_logo
 	padding:4px;
 	border-spacing:0;
 }
+
 .left-row
 {
 	vertical-align:top;
@@ -130,38 +151,37 @@ div.sqd_logo
 	vertical-align:top;
 	height:100%;
 }
+
+
 .member_info
 {
-	border:1px dotted darkgrey;
+	border: 1px solid #c484149a;
 	width:100%;
 	padding:0;
 	border-spacing:0;
 }
-.member_name
-{
-	font-family:Arial;
-	color:black;
-	font-size:10pt;
-	padding:4px;
+.member_info td, .member_info th {
+	text-align: left;
+}
+
+.member_name {
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 4px;
+	padding-left: 10px;
 }
 .member_email
 {
-	font-family:Arial;
-	color:black;
 	font-size:8pt;
 	padding:4px;
 }
 .member_icq
 {
-	font-family:Arial;
-	color:black;
 	font-size:8pt;
 	padding:4px;
 }
 .member_remark
 {
-	font-family:Arial;
-	color:black;
-	font-size:8pt;
-	text-align:center;
+	font-size: 9pt;
+	text-align: center;
 }

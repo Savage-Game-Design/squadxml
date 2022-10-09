@@ -26,6 +26,7 @@
 	<!--Main TABLE -->
 	<TABLE class="main">
 		<TR>
+	<!-- Left row -->
 			<TD class="left_row" valign="top">
 		<!-- Squad Info Table -->
 				<TABLE class="sqd_info">
@@ -60,18 +61,19 @@
 							</DIV>
 						</TD>
 					</TR>
-					<TR height="10">
+					<TR height="30">
 						<TD class="sqd_website">
-							Web site: 
-							<A>
+							<!-- Web site:  -->
+							<A target="_blank">
 								<xsl:attribute name="href">
-								http://<xsl:value-of select="/squad/web"/>
+								https://<xsl:value-of select="/squad/web"/>
 								</xsl:attribute>
 								<xsl:value-of select="/squad/web"/>
 							</A>
 						</TD>
+						
 					</TR>
-					<TR>
+					<!-- <TR>
 						<TD class="sqd_email">	
 							e-mail:
 							<A>
@@ -81,61 +83,51 @@
 								<xsl:value-of select="/squad/email"/>
 							</A>	
 						</TD>
-					</TR>
+					</TR> -->
 				</TABLE>
 		<!-- Squad Info Table -->
 			</TD>
+	<!-- Right row -->
 			<TD class="right_row" valign="top">			
 		<!-- Member-Info Table -->
 				<TABLE class="member_info">
-					<Tr>
-						<Th>Members</Th>
+					<TR height="30">
+						<TH>Members</TH>
+						<TH>Remark</TH>
 						<Th>e-mail</Th>
-						<Th>ICQ</Th>
-					</Tr>
+						<Th>IM</Th>
+					</TR>
 					<xsl:for-each select="/squad/member">
-					<TR>
+					<TR height="30">
 						<xsl:attribute name="class">
 							<xsl:choose>
 								<xsl:when test="position() mod 2 = 0">one</xsl:when>
 								<xsl:otherwise>two</xsl:otherwise>
 							</xsl:choose>
 						</xsl:attribute>
-						<TD class="member_name" rowspan="2">
+						<TD class="member_name">
 							<xsl:value-of select="name"/>
 						</TD>
+						<TD class="member_remark">
+							<xsl:value-of select="remark"/>
+						</TD>
 						<TD class="member_email">
-							<A>
-								<xsl:attribute name="href">
-									mailto:<xsl:value-of select="email"/>
-								</xsl:attribute>
-								<xsl:value-of select="email"/>
-							</A>
+							<xsl:value-of select="email"/>
 						</TD>
 						<TD class="member_icq">
 							<xsl:value-of select="icq"/>
 						</TD>
 					</TR>
-					<TR>
-						<xsl:attribute name="class">
-							<xsl:choose>
-								<xsl:when test="position() mod 2 = 0">one</xsl:when>
-								<xsl:otherwise>two</xsl:otherwise>
-							</xsl:choose>
-						</xsl:attribute>
-						<TD class="member_remark" colspan="2" valign="top">
-							<xsl:value-of select="remark"/>
-						</TD>
-					</TR>
 					</xsl:for-each>
 				</TABLE>
-		<!-- Member Info Table -->					
+		<!-- Member Info Table -->
 		<!--Main TABLE -->
 			</TD>
 		</TR>
 	</TABLE>
-	<p style="font-family:verdana;font-size:7pt;color:darkgrey;text-align:center;padding:10px;">
-	"squad.xsl" by <strong>TomNedry</strong>, last change: 15.Jul09
+	<p class="footer">
+		"squad.xsl" by <strong>TomNedry</strong>, edit by Savage Games Design,
+		<A target="_blank" href="https://github.com/Savage-Game-Design/squadxml">GitHub</A>
 	</p>
 	</BODY>
 	</HTML>
