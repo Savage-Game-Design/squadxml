@@ -126,7 +126,7 @@
 		</TR>
 	</TABLE>
 	<p class="footer">
-		"squad.xsl" by <strong>TomNedry</strong>, edit by Savage Games Design,
+		"squad.xsl" by <strong>TomNedry</strong>, edit by Savage Game Design,
 		<A target="_blank" href="https://github.com/Savage-Game-Design/squadxml">GitHub</A>
 	</p>
 	</BODY>
