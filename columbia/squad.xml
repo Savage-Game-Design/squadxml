@@ -7,7 +7,14 @@
     <web>sogpf.com</web>
     <picture>logo_ca.paa</picture>
     <title>RT Columbia</title>
-    <!--  Members -->
+    <!-- SGD CEO -->
+    <member id="76561197974575839" nick="Eggbeast">
+        <email>N/A</email>
+        <name>[SGD] Eggbeast</name>
+        <icq>N/A</icq>
+        <remark>Project director</remark>
+    </member>
+    <!-- SGD -->
     <member id="76561197993041837" nick="veteran29">
         <email>N/A</email>
         <name>[SGD] veteran29</name>
@@ -44,6 +51,7 @@
         <icq>N/A</icq>
         <remark>Member</remark>
     </member>
+    <!-- Members -->
     <member id="76561197967541286" nick="Saint">
         <email>N/A</email>
         <name>Saint [48th OG]</name>
