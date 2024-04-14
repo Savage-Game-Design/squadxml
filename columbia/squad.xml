@@ -27,12 +27,6 @@
         <icq>N/A</icq>
         <remark>Community Manager</remark>
     </member>
-    <member id="76561197981991967" nick="Bob Murphy">
-        <email>N/A</email>
-        <name>[SGD] Bob Murphy</name>
-        <icq>N/A</icq>
-        <remark>QA Lead</remark>
-    </member>
     <member id="76561198011383725" nick="Spoffy">
         <email>N/A</email>
         <name>[SGD] Spoffy</name>
@@ -52,6 +46,12 @@
         <remark>Member</remark>
     </member>
     <!-- Members -->
+    <member id="76561197981991967" nick="Bob Murphy">
+        <email>N/A</email>
+        <name>Bob Murphy</name>
+        <icq>N/A</icq>
+        <remark>Member</remark>
+    </member>
     <member id="76561197967541286" nick="Saint">
         <email>N/A</email>
         <name>Saint [48th OG]</name>
